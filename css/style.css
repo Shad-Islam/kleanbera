@@ -1,0 +1,219 @@
+/*common css start*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+clr {
+    clear: both;
+}
+
+/*common css end*/
+
+/*header css start*/
+.header-bg {
+    height: 40px;
+    width: 100%;
+    background: #262C33;
+    border-bottom: 1px solid #606974;
+
+}
+
+.header-bg .header-content {
+    height: 40px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header-bg .header-content .heder-address {
+    height: 40px;
+    width: 500px;
+    float: left;
+}
+
+.header-bg .header-content .heder-address ul li{
+    float:left;
+    line-height: 40px; 
+    margin-right: 20px;
+    color: #fff;
+}
+
+.header-bg .header-content .header-social {
+    height: 40px;
+    width: 700px;
+    float: left;
+}
+
+.header-bg .header-content .header-social p{
+    line-height: 40px;
+    text-align: right;
+    color: #fff;       
+}
+/*header css end*/
+
+
+/*menu css start*/
+.menu-bg{
+    height: 70px;
+    width: 100%;
+    background: #262C33;
+}
+
+.menu-bg .menu-content{
+    height: 70px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-bg .menu-content .logo{
+    height: 70px;
+    width: 200px;
+    float: left;   
+}
+
+.menu-bg .menu-content .logo a img {
+    width: 100%;
+    padding-top: 10px;
+}
+.menu-bg .menu-content .menu-list{
+    height: 70px;
+    width: 1000px;
+    float: left;
+}
+.menu-bg .menu-content .menu-list ul{
+    line-height: 70px;
+    float: right;   
+}
+
+
+.menu-bg .menu-content .menu-list ul li{
+    float: left;
+    
+}
+
+.menu-bg .menu-content .menu-list ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+/*menu css end*/
+
+/*banner css start*/
+.banner-bg{
+    height: 500px;
+    width: 100%;
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-bg .banner-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+ 
+.banner-bg .banner-overlay .banner-content{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-bg .banner-overlay .banner-content p{
+    text-transform: uppercase;
+    color: #2ba85b;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.banner-bg .banner-overlay .banner-content h1{
+    text-transform: capitalize;
+    color:#fff;
+    font-size: 70px;
+    padding: 0 200px;
+     padding-top: 40px;
+}
+
+.banner-bg .banner-overlay .banner-content a{
+    text-transform: uppercase;
+    color: #fff;
+    background: #2ba85b;
+    padding: 0 40px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 5px;
+    line-height: 50px;
+}
+/*banner css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
