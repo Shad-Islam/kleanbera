@@ -18,6 +18,15 @@ clr {
 
 /*common css end*/
 
+/*common space start*/
+.m30{
+    margin: 0 30px;
+}
+.mb{
+    margin-bottom: 40px;
+}
+/*common space end*/
+
 /*header css start*/
 .header-bg {
     height: 40px;
@@ -40,9 +49,9 @@ clr {
     float: left;
 }
 
-.header-bg .header-content .heder-address ul li{
-    float:left;
-    line-height: 40px; 
+.header-bg .header-content .heder-address ul li {
+    float: left;
+    line-height: 40px;
     margin-right: 20px;
     color: #fff;
 }
@@ -53,62 +62,66 @@ clr {
     float: left;
 }
 
-.header-bg .header-content .header-social p{
+.header-bg .header-content .header-social p {
     line-height: 40px;
     text-align: right;
-    color: #fff;       
+    color: #fff;
 }
+
 /*header css end*/
 
 
 /*menu css start*/
-.menu-bg{
+.menu-bg {
     height: 70px;
     width: 100%;
     background: #262C33;
 }
 
-.menu-bg .menu-content{
+.menu-bg .menu-content {
     height: 70px;
     width: 1200px;
     margin: 0 auto;
 }
 
-.menu-bg .menu-content .logo{
+.menu-bg .menu-content .logo {
     height: 70px;
     width: 200px;
-    float: left;   
+    float: left;
 }
 
 .menu-bg .menu-content .logo a img {
     width: 100%;
     padding-top: 10px;
 }
-.menu-bg .menu-content .menu-list{
+
+.menu-bg .menu-content .menu-list {
     height: 70px;
     width: 1000px;
     float: left;
 }
-.menu-bg .menu-content .menu-list ul{
+
+.menu-bg .menu-content .menu-list ul {
     line-height: 70px;
-    float: right;   
+    float: right;
 }
 
 
-.menu-bg .menu-content .menu-list ul li{
+.menu-bg .menu-content .menu-list ul li {
     float: left;
-    
+
 }
 
-.menu-bg .menu-content .menu-list ul li a{
+.menu-bg .menu-content .menu-list ul li a {
     color: #fff;
     text-transform: uppercase;
     padding: 0 30px;
 }
+
 /*menu css end*/
 
 /*banner css start*/
-.banner-bg{
+.banner-bg {
     height: 500px;
     width: 100%;
     background: url(../images/banner.png);
@@ -117,35 +130,35 @@ clr {
     background-size: cover;
 }
 
-.banner-bg .banner-overlay{
+.banner-bg .banner-overlay {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
- 
-.banner-bg .banner-overlay .banner-content{
+
+.banner-bg .banner-overlay .banner-content {
     width: 1200px;
     height: 500px;
     margin: 0 auto;
     text-align: center;
 }
 
-.banner-bg .banner-overlay .banner-content p{
+.banner-bg .banner-overlay .banner-content p {
     text-transform: uppercase;
     color: #2ba85b;
     padding-top: 60px;
     font-size: 30px;
 }
 
-.banner-bg .banner-overlay .banner-content h1{
+.banner-bg .banner-overlay .banner-content h1 {
     text-transform: capitalize;
-    color:#fff;
+    color: #fff;
     font-size: 70px;
     padding: 0 200px;
-     padding-top: 40px;
+    padding-top: 40px;
 }
 
-.banner-bg .banner-overlay .banner-content a{
+.banner-bg .banner-overlay .banner-content a {
     text-transform: uppercase;
     color: #fff;
     background: #2ba85b;
@@ -155,51 +168,224 @@ clr {
     border-radius: 5px;
     line-height: 50px;
 }
+
 /*banner css end*/
 
+/*milestone css start*/
+.milestone-bg {
+    height: 200px;
+    width: 100%;
+    background: #262C33;
+}
+
+.milestone-bg .milestone-content {
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.milestone-bg .milestone-content .milestone-details {
+    height: 200px;
+    width: 800px;
+    float: left;
+    position: relative;
+}
+
+.milestone-bg .milestone-content .milestone-details .item1 {
+    height: 200px;
+    width: 400px;
+    float: left;
+}
+
+.milestone-bg .milestone-content .milestone-details .item1 h4 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.milestone-bg .milestone-content .milestone-details .item1 p {
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.milestone-bg .milestone-content .milestone-details .item2 {
+    height: 200px;
+    width: 400px;
+    float: left;
+}
+
+.milestone-bg .milestone-content .milestone-details .item2 h4 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+
+.milestone-bg .milestone-content .milestone-details .item2 p {
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+}
 
 
+.milestone-bg .milestone-content .milestone-details .circle {
+    height: 50px;
+    width: 50px;
+    background: #2ba85b;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    right: -25px;
+}
+
+.milestone-bg .milestone-content .milestone-contact {
+    height: 200px;
+    width: 400px;
+    background: #222;
+    float: left;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.milestone-bg .milestone-content .milestone-contact p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.milestone-bg .milestone-content .milestone-contact h4 {
+    color: #2ba85b;
+    text-transform: capitalize;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.milestone-bg .milestone-content .milestone-contact ul li {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/*milestone css end*/
+
+/*about css start*/
+
+.about-bg {
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-bg .about-content {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about-bg .about-content .about-image {
+    height: 500px;
+    width: 550px;
+    float: left;
+    margin-right: 100px;
+}
+
+.about-bg .about-content .about-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-bg .about-content .about-details {
+    height: 500px;
+    width: 550px;
+    float: left;
+}
+
+.about-bg .about-content .about-details h4 {
+    color: #2ba85b;
+    font-size: 15px;
+    padding-top: 20px;
+    ;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.about-bg .about-content .about-details h2 {
+    color: #000;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.about-bg .about-content .about-details p {
+    color: #464141;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.about-bg .about-content .about-details a {
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    background: #2ba85b;
+    margin-top: 30px;
+    border-radius: 5px;
+    line-height: 50px;
+    padding: 0 40px;
+    text-transform: uppercase;
+
+}
+
+/*about css end*/
+/*service start*/
+.service-bg{
+    height: 800px;
+    width: 100%;
+    background: red;
+    padding:100px 0;
+}
+
+.service-bg .service-content{
+    height: 800px;
+    width: 1200px;
+    background: #5a54e3;
+    margin: 0 auto;
+}
+
+.service-bg .service-content .service-heading{
+    height: 200px;
+    width: 100%;
+    background: #cace72;
+    text-align: center;
+}
 
 
+.service-bg .service-content .service-heading p{
+     color:  #2ba85b;
+    font-size: 30px;
+}
 
+.service-bg .service-content .service-heading h3{
+     color:  #000;
+    font-size: 60px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.service-bg .service-content .service-item-content{
+    height: 600px;
+    width: 100%;
+    background: #8708bf;
+}
+.service-bg .service-content .service-item-content .service-item{
+    height: 280px;
+    width: 380px;
+    background: #119600;
+    float: left;
+}
+/*service end*/
 
 
 
