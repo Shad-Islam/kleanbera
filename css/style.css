@@ -19,12 +19,14 @@ clr {
 /*common css end*/
 
 /*common space start*/
-.m30{
+.m30 {
     margin: 0 30px;
 }
-.mb{
+
+.mb {
     margin-bottom: 40px;
 }
+
 /*common space end*/
 
 /*header css start*/
@@ -109,6 +111,7 @@ clr {
 
 .menu-bg .menu-content .menu-list ul li {
     float: left;
+    position: relative;
 
 }
 
@@ -116,8 +119,46 @@ clr {
     color: #fff;
     text-transform: uppercase;
     padding: 0 30px;
+    transition: all linear 0.5s;
+    display: block;
 }
 
+.menu-bg .menu-content .menu-list ul li:hover > a {
+    background: #2ba85b;
+}
+
+.menu-bg .menu-content .menu-list ul li ul{
+    position: absolute;
+    transition: all linear 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu-bg .menu-content .menu-list ul li:hover > ul{
+    top: 71px;
+    opacity: 1;
+    visibility:visible;
+}
+
+.menu-bg .menu-content .menu-list ul li ul li{       /*  bjhe nai  */
+    float: none;
+}
+
+.menu-bg .menu-content .menu-list ul li ul li a{
+    white-space: nowrap;
+    line-height: 30px;
+    transition: all linear 0.5s;
+    background: #fff;
+    color: #000;
+}
+
+.menu-bg .menu-content .menu-list ul li ul li:hover > a{
+    background: #2ba85b;
+   
+   
+    
+    
+}
 /*menu css end*/
 
 /*banner css start*/
@@ -342,64 +383,64 @@ clr {
 
 /*about css end*/
 /*service start*/
-.service-bg{
+.service-bg {
     height: 800px;
     width: 100%;
-    background: red;
-    padding:100px 0;
+    background: #f8f8f8;
+    padding: 100px 0;
 }
 
-.service-bg .service-content{
+
+.service-bg .service-content {
     height: 800px;
     width: 1200px;
-    background: #5a54e3;
+    /*    background: #5a54e3;*/
     margin: 0 auto;
 }
 
-.service-bg .service-content .service-heading{
+.service-bg .service-content .service-heading {
     height: 200px;
     width: 100%;
-    background: #cace72;
+    /*    background: #cace72;*/
     text-align: center;
 }
 
 
-.service-bg .service-content .service-heading p{
-     color:  #2ba85b;
+.service-bg .service-content .service-heading p {
+    color: #2ba85b;
     font-size: 30px;
+    text-transform: uppercase;
 }
 
-.service-bg .service-content .service-heading h3{
-     color:  #000;
+.service-bg .service-content .service-heading h3 {
+    color: #000;
     font-size: 60px;
 }
 
-.service-bg .service-content .service-item-content{
+.service-bg .service-content .service-item-content {
     height: 600px;
     width: 100%;
-    background: #8708bf;
+    /*    background: #8708bf;*/
 }
-.service-bg .service-content .service-item-content .service-item{
+
+.service-bg .service-content .service-item-content .service-item {
     height: 280px;
     width: 380px;
-    background: #119600;
+    background: rgba(187, 190, 186, 0.29);
     float: left;
+    text-align: center;
 }
+
+.service-bg .service-content .service-item-content .service-item h4 {
+    padding: 60px 20px 0px 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.service-bg .service-content .service-item-content .service-item p {
+    padding: 20px 50px 0px 50px;
+    text-transform: none;
+}
+
 /*service end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
